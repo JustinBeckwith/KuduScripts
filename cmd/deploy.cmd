@@ -2,7 +2,7 @@
 
 :: Specify project file
 IF "%PROJECT%" == "" (
-   SET PROJECT="DeploymentScriptDemo\DeploymentScriptDemo.csproj"
+   SET PROJECT="PROJECTFILEGOESHERE"
 )
 
 IF "%PROJECT%" == "PROJECTFILEGOESHERE" goto MissingProject

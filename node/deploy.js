@@ -4,28 +4,7 @@ var path = require('path'),
 	wrench = require('wrench');
 
 
-// :: ----------------------
-// :: KUDU Deployment Script
-// :: ----------------------
-// ::
-// :: INPUTS:
-// :: -------
-// :: REPOSITORY_ROOT_PATH
-// :: TEMPORARY_DIRECTORY_PATH
-// :: WEB_ROOT_PATH
-// :: MANIFEST_PATH
-// :: PROJECT_TYPE
-// :: PROJECT_FILE_PATH
-// :: SOLUTION_FILE_PATH
-
-
-console.log(process.env.DEPLOYMENT_SOURCE);
-console.log(process.env.DEPLOYMENT_TARGET);
-console.log(process.env.DEPLOYMENT_TEMP);
-
-
-
-var project = "DeploymentScriptDemo\\DeploymentScriptDemo.csproj";
+var project = "YOUR PROJECT GOES HERE";
 var config = 'Release';
 
 console.log('building %s', project);
